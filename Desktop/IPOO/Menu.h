@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+//#include "Informacion del laboratorio.h"
 
 
 using namespace std ;
@@ -10,6 +11,7 @@ class Menu {
 	private :
 		int OpcionElegida ;
 		struct Fecha ;
+	//	vector <Informacion del laboratorio> Informacion ;
 				
 	public :
 		void setOpcionElegida (int OpcionElegida_) ;
